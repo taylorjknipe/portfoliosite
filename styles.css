@@ -17,3 +17,31 @@
     display: flex;
     gap: 1.5em;
 }
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 20%;
+    font-size: 18px;
+}
+
+#bio-main {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+#img-placeholder {
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 2em;
+    align-self: baseline;
+}
+
+#bio p {
+    margin-top: 1em;
+}
